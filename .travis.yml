@@ -2,4 +2,4 @@ language:
   - swift
 osx_image: xcode11.1
 script:
-  - xcodebuild -scheme TestApp -workspace TestApp.xcodeproj/project.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=9.1'
+  - xcodebuild -scheme TestApp -workspace TestApp.xcodeproj/project.xcworkspace -sdk iphonesimulator 
