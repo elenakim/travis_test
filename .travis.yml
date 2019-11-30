@@ -2,7 +2,7 @@ language:
   - swift
 osx_image: xcode11.1
 script:
-  - xcodebuild -scheme TestApp -workspace TestApp.xcodeproj/project.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.1'
+  - xcodebuild -scheme TestApp -workspace TestApp.xcodeproj/project.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.1' build test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) 
