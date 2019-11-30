@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  test_app
+//  TestApp
 //
 //  Created by Elena on 30/11/2019.
 //  Copyright © 2019 elena. All rights reserved.
